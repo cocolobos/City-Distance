@@ -1,0 +1,109 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+input:focus{
+  outline: none;
+}
+
+.wrapper {
+  box-shadow: 10px 10px 5px lightgray;
+  border: 1px solid lightgray;
+  border-radius: 50px;
+  width: 60%;
+  height: 600px;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.tripInfoContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.tripGuide{
+  width: 30%;
+  text-align: center;
+}
+
+.tripFormWrapper {
+  width: 70%;
+  margin: 0 0 0 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tripFormInputs {
+  display: flex;
+  flex-direction: row;
+}
+
+.tripFormCities {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tripStaticValuesContainer {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.passengerContainer, .dateWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: center;
+  margin: 0 5px 5px 5px;
+}
+
+.passengerWrapper {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px;
+}
+
+.passengerWrapper > input {
+  width: 30px;
+  text-align: center;
+  border: none;
+}
+
+.passengerWrapper > button {
+  border: none;
+  border-radius: 5px;
+  background-color: #c2daf2;
+  color: white;
+  font-size: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.dateWrapper > input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 2px;
+  text-align: center;
+}
+
+
+

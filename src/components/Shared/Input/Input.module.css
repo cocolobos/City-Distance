@@ -1,0 +1,12 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 50px;
+  padding: 0 5px 5px 5px;
+}
+
+label {
+  border: none;
+}
